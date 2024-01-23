@@ -1,0 +1,18 @@
+networks:
+  edgexpert_edgex:
+    external: true
+
+services:
+  pymodbus-sim:
+    image: iotechsys/pymodbus-sim:1.0
+    volumes:
+      - type: bind
+        source: ${PWD}/pymodbus-sim-config.json
+        target: /pymodbus-sim-config.json
+        read_only: true
+      - type: bind
+        source: ${PWD}/update_values.py
+        target: /update_values.py
+        read_only: true
+    networks:
+      - edgexpert_edgex

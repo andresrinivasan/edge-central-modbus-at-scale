@@ -1,0 +1,1138 @@
+name: modbus-sim
+apiVersion: v2
+deviceResources:
+- name: b_1
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Bool
+    readWrite: R
+  attributes:
+    primaryTable: DISCRETES_INPUT
+    startingAddress: 0
+- name: "16_1"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int16
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 0
+- name: "32_1"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 1
+- name: "32_2"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 3
+- name: "32_3"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 5
+- name: "32_4"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 7
+- name: "32_5"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 9
+- name: "32_6"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 11
+- name: "32_7"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 13
+- name: "32_8"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 15
+- name: "32_9"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 17
+- name: "32_10"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 19
+- name: "32_11"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 21
+- name: "32_12"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 23
+- name: "32_13"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 25
+- name: "32_14"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 27
+- name: "32_15"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 29
+- name: "32_16"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 31
+- name: "32_17"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 33
+- name: "32_18"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 35
+- name: "32_19"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 37
+- name: "32_20"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 39
+- name: "32_21"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 41
+- name: "32_22"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 43
+- name: "32_23"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 45
+- name: "32_24"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 47
+- name: "32_25"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 49
+- name: "32_26"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 51
+- name: "32_27"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 53
+- name: "32_28"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 55
+- name: "32_29"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 57
+- name: "32_30"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 59
+- name: "32_31"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 61
+- name: "32_32"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 63
+- name: "32_33"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 65
+- name: "32_34"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 67
+- name: "32_35"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 69
+- name: "32_36"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 71
+- name: "32_37"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 73
+- name: "32_38"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 75
+- name: "32_39"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 77
+- name: "32_40"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 79
+- name: "32_41"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 81
+- name: "32_42"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 83
+- name: "32_43"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 85
+- name: "32_44"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 87
+- name: "32_45"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 89
+- name: "32_46"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 91
+- name: "32_47"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 93
+- name: "32_48"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 95
+- name: "32_49"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 97
+- name: "32_50"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 99
+- name: "32_51"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 101
+- name: "32_52"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 103
+- name: "32_53"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 105
+- name: "32_54"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 107
+- name: "32_55"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 109
+- name: "32_56"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 111
+- name: "32_57"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 113
+- name: "32_58"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 115
+- name: "32_59"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 117
+- name: "32_60"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 119
+- name: "32_61"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 121
+- name: "32_62"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 123
+- name: "32_63"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 125
+- name: "32_64"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 127
+- name: "32_65"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 129
+- name: "32_66"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 131
+- name: "32_67"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 133
+- name: "32_68"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 135
+- name: "32_69"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 137
+- name: "32_70"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 139
+- name: "32_71"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 141
+- name: "32_72"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 143
+- name: "32_73"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 145
+- name: "32_74"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 147
+- name: "32_75"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 149
+- name: "32_76"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 151
+- name: "32_77"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 153
+- name: "32_78"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 155
+- name: "32_79"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 157
+- name: "32_80"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 159
+- name: "32_81"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 161
+- name: "32_82"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 163
+- name: "32_83"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 165
+- name: "32_84"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 167
+- name: "32_85"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 169
+- name: "32_86"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 171
+- name: "32_87"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 173
+- name: "32_88"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 175
+- name: "32_89"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 177
+- name: "32_90"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 179
+- name: "32_91"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 181
+- name: "32_92"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 183
+- name: "32_93"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 185
+- name: "32_94"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 187
+- name: "32_95"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 189
+- name: "32_96"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 191
+- name: "32_97"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 193
+- name: "32_98"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 195
+- name: "32_99"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 197
+- name: "32_100"
+  isHidden: false
+  tags:
+    subDevice: module001
+  properties:
+    valueType: Int32
+    readWrite: R
+  attributes:
+    primaryTable: INPUT_REGISTERS
+    startingAddress: 199
+deviceCommands:
+- name: bc_1
+  isHidden: false
+  readWrite: R
+  resourceOperations:
+  - deviceResource: b_1
+- name: 16c_1
+  isHidden: false
+  readWrite: R
+  resourceOperations:
+  - deviceResource: "16_1"
+- name: 32c_100
+  isHidden: false
+  readWrite: R
+  resourceOperations:
+  - deviceResource: "32_1"
+  - deviceResource: "32_2"
+  - deviceResource: "32_3"
+  - deviceResource: "32_4"
+  - deviceResource: "32_5"
+  - deviceResource: "32_6"
+  - deviceResource: "32_7"
+  - deviceResource: "32_8"
+  - deviceResource: "32_9"
+  - deviceResource: "32_10"
+  - deviceResource: "32_11"
+  - deviceResource: "32_12"
+  - deviceResource: "32_13"
+  - deviceResource: "32_14"
+  - deviceResource: "32_15"
+  - deviceResource: "32_16"
+  - deviceResource: "32_17"
+  - deviceResource: "32_18"
+  - deviceResource: "32_19"
+  - deviceResource: "32_20"
+  - deviceResource: "32_21"
+  - deviceResource: "32_22"
+  - deviceResource: "32_23"
+  - deviceResource: "32_24"
+  - deviceResource: "32_25"
+  - deviceResource: "32_26"
+  - deviceResource: "32_27"
+  - deviceResource: "32_28"
+  - deviceResource: "32_29"
+  - deviceResource: "32_30"
+  - deviceResource: "32_31"
+  - deviceResource: "32_32"
+  - deviceResource: "32_33"
+  - deviceResource: "32_34"
+  - deviceResource: "32_35"
+  - deviceResource: "32_36"
+  - deviceResource: "32_37"
+  - deviceResource: "32_38"
+  - deviceResource: "32_39"
+  - deviceResource: "32_40"
+  - deviceResource: "32_41"
+  - deviceResource: "32_42"
+  - deviceResource: "32_43"
+  - deviceResource: "32_44"
+  - deviceResource: "32_45"
+  - deviceResource: "32_46"
+  - deviceResource: "32_47"
+  - deviceResource: "32_48"
+  - deviceResource: "32_49"
+  - deviceResource: "32_50"
+  - deviceResource: "32_51"
+  - deviceResource: "32_52"
+  - deviceResource: "32_53"
+  - deviceResource: "32_54"
+  - deviceResource: "32_55"
+  - deviceResource: "32_56"
+  - deviceResource: "32_57"
+  - deviceResource: "32_58"
+  - deviceResource: "32_59"
+  - deviceResource: "32_60"
+  - deviceResource: "32_61"
+  - deviceResource: "32_62"
+  - deviceResource: "32_63"
+  - deviceResource: "32_64"
+  - deviceResource: "32_65"
+  - deviceResource: "32_66"
+  - deviceResource: "32_67"
+  - deviceResource: "32_68"
+  - deviceResource: "32_69"
+  - deviceResource: "32_70"
+  - deviceResource: "32_71"
+  - deviceResource: "32_72"
+  - deviceResource: "32_73"
+  - deviceResource: "32_74"
+  - deviceResource: "32_75"
+  - deviceResource: "32_76"
+  - deviceResource: "32_77"
+  - deviceResource: "32_78"
+  - deviceResource: "32_79"
+  - deviceResource: "32_80"
+  - deviceResource: "32_81"
+  - deviceResource: "32_82"
+  - deviceResource: "32_83"
+  - deviceResource: "32_84"
+  - deviceResource: "32_85"
+  - deviceResource: "32_86"
+  - deviceResource: "32_87"
+  - deviceResource: "32_88"
+  - deviceResource: "32_89"
+  - deviceResource: "32_90"
+  - deviceResource: "32_91"
+  - deviceResource: "32_92"
+  - deviceResource: "32_93"
+  - deviceResource: "32_94"
+  - deviceResource: "32_95"
+  - deviceResource: "32_96"
+  - deviceResource: "32_97"
+  - deviceResource: "32_98"
+  - deviceResource: "32_99"
+  - deviceResource: "32_100"

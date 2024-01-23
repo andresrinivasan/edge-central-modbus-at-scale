@@ -1,0 +1,25 @@
+{
+  "apiVersion": "v2",
+  "device": {
+    "name": "CHANGE-ON-INSTALL",
+    "adminState": "UNLOCKED",
+    "operatingState": "DOWN",
+    "serviceName": "device-modbus",
+    "profileName": "modbus-sim",
+    "autoEvents": [
+      { "interval": "1s", "onChange": true, "sourceName": "bc_1" },
+      { "interval": "1s", "onChange": true, "sourceName": "16c_1" },
+      { "interval": "1s", "onChange": true, "sourceName": "32c_1" },
+      { "interval": "1s", "onChange": true, "sourceName": "32c_2" }
+    ],
+    "protocolName": "modbus-tcp",
+    "protocols": {
+      "modbus-tcp": {
+        "Address": "host.docker.internal",
+        "Port": "5020",
+        "UnitID": "1"
+      }
+    },
+    "properties": null
+  }
+}
