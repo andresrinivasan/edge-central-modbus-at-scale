@@ -2,7 +2,7 @@
   {
     "apiVersion": "v2",
     "device": {
-      "name": "modbus-5022-pymodbus-sim",
+      "name": "${SIM_CONTAINER}",
       "adminState": "UNLOCKED",
       "operatingState": "UP",
       "serviceName": "device-modbus",
@@ -16,7 +16,7 @@
       "protocolName": "modbus-tcp",
       "protocols": {
         "modbus-tcp": {
-          "Address": "modbus-5022-pymodbus-sim",
+          "Address": "${SIM_CONTAINER}",
           "Port": "5020",
           "UnitID": "1"
         }
