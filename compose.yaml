@@ -1,10 +1,15 @@
 networks:
-  edgexpert_edgex:
+  edgex-network:
     external: true
+    name: edgexpert_edgex-network
 
 services:
   pymodbus-sim:
     image: iotechsys/pymodbus-sim:1.0
+    container_name: ${COMPOSE_PROJECT_NAME}-pymodbus-sim
+    command: --port 5020 --profile /pymodbus-sim-config.json --script /update_values.py
+    ports:
+      - ${MODBUS_PORT}:5020
     volumes:
       - type: bind
         source: ${PWD}/pymodbus-sim-config.json
@@ -15,4 +20,4 @@ services:
         target: /update_values.py
         read_only: true
     networks:
-      - edgexpert_edgex
+      - edgex-network

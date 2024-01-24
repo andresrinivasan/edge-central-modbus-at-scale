@@ -1,6 +1,0 @@
-services:
-  pymodbus-sim:
-    command: --port ${PYMODBUS_PORT} --profile /pymodbus-sim-config.json --script /update_values.py
-    container_name: pymodbus-sim-${PYMODBUS_PORT}
-    ports:
-      - ${PYMODBUS_PORT}:${PYMODBUS_PORT}

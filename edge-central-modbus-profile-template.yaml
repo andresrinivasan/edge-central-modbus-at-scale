@@ -1032,7 +1032,7 @@ deviceCommands:
   readWrite: R
   resourceOperations:
   - deviceResource: "16_1"
-- name: 32c_100
+- name: 32c_50_1
   isHidden: false
   readWrite: R
   resourceOperations:
@@ -1086,6 +1086,10 @@ deviceCommands:
   - deviceResource: "32_48"
   - deviceResource: "32_49"
   - deviceResource: "32_50"
+- name: 32c_50_2
+  isHidden: false
+  readWrite: R
+  resourceOperations:
   - deviceResource: "32_51"
   - deviceResource: "32_52"
   - deviceResource: "32_53"
