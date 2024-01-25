@@ -20,10 +20,8 @@ For the purposes of this exercise, we therefore need
 - Docker and Docker Compose
 - GNU Make
 - [IOTEch Edge Central](https://www.iotechsys.com/products/edge-central/edge-central-installer-download/) or [EdgeX](https://github.com/edgexfoundry/edgex-go#get-started).
-- curl or httpie
-- jq
-
-The underlying Docker containers do use Python and Go. You will need a Python and/or Go environment if you decide to run things outside of the containers.
+- [httpie](https://httpie.io/) (aka better curl)
+- [jq](https://jqlang.github.io/jq/)
 
 ## Start the Simulator
 
