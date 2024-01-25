@@ -49,3 +49,21 @@ Be sure to start modbus service
 ```sh
 START_PORT=5020 COUNT=10 make start-and-add-simulators
 ```
+
+Check simulators are running
+
+```sh
+docker ps --filter "name=pymodbus" --format "{{print .Names}}"
+```
+
+Check profile is loaded
+
+```sh
+http $(docker inspect --format "{{range .NetworkSettings.Networks}}{{.IPAddress}}  {{end}}" core-metadata | xargs):59881/api/v2/deviceprofile/name/modbus-sim
+```
+
+Check device-modbus container for errors
+
+```sh
+docker logs device-modbus
+```
