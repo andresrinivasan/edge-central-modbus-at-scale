@@ -29,7 +29,7 @@ Edge Central isn't the right tool to help debug your devices (or simulated devic
 
 ### Start a Simulator Instance
 
-`START_PORT=5020 COUNT=1 make start-simulators`
+`make start-simulators`
 
 ### Smoke Test
 
@@ -45,13 +45,13 @@ Follow IOTech docs
 Be sure to start modbus service
 
 ```sh
-START_PORT=5020 COUNT=10 make start-and-add-simulators
+SIM_COUNT=10 make start-and-add-simulators
 ```
 
 Check simulators are running
 
 ```sh
-docker ps --filter "name=pymodbus" --format "{{print .Names}}"
+docker ps --filter "name=pymodbus-sim" --format "{{print .Names}}"
 ```
 
 Check profile is loaded
