@@ -17,7 +17,7 @@ CORE_METADATA := $(shell docker inspect --format "{{range .NetworkSettings.Netwo
 CORE_METADATA_PORT = 59881
 
 add-profile:
-	http -f $(CORE_METADATA)/api/v2/deviceprofile/uploadfile file@./edge-central-modbus-profile.yaml; \
+	http -f $(CORE_METADATA):$(CORE_METADATA_PORT)/api/v2/deviceprofile/uploadfile file@./edge-central-modbus-profile.yaml
 
 remove-profile:
 	http delete $(CORE_METADATA):$(CORE_METADATA_PORT)/api/v2/deviceprofile/name/modbus-sim
